@@ -1,0 +1,47 @@
+*{
+	padding:0px;
+	margin:0px;
+	color:#060630;
+	font-family:arial;
+	box-sizing:border-box;
+}
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwQWh9MtVh0b7OI9mV6KWx9AyAbVsY8JPIqg&usqp=CAU");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+  }
+a{text-decoration:none;font-weight:100;font-size: small;}
+.link{color:#00aced;}
+p{margin:5px 0px;}
+.box{
+	width:300px;
+	height:auto;
+	margin:100px auto;
+	background-color:white;
+}
+.inner-box{
+	padding:20px;
+}
+.box h1,h2,h3,h4,h5,h6{
+	text-align:center;
+	margin:5px 0px;
+}
+.forgot{
+	float:right;
+}
+input[type="text"],input[type="password"],input[type="submit"],input[type="email"]{
+	width:100%;
+	padding:8px;
+	margin:10px 0px;
+	border:1px solid #c0c0c0;
+}
+input[type="submit"]{
+  
+	border:1px solid orangered;
+	background-color:orangered;
+	color:white;
+	font-size:16px;
+	font-weight:600;
+	cursor:pointer;
+}
